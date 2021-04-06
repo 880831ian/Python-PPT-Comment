@@ -38,7 +38,6 @@ jupyter notebook
 ![image](https://raw.githubusercontent.com//880831ian/Python-PPT-Comment/main/images/1.PNG)
 
 - 2. 就可以看到瀏覽器跳出本地端的jupyter notebook介面
-- 
 ![image](https://raw.githubusercontent.com//880831ian/Python-PPT-Comment/main/images/2.PNG)
 
 
