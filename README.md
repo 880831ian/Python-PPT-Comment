@@ -1,4 +1,5 @@
-# Python-PPT-Comment透過Python來抓取PPT網頁版留言
+# Python-PPT-Comment
+透過Python來抓取PPT網頁版留言
 
 ### 本次使用Python Jupyter Notebook 資料收集，以下簡易介紹如何安裝Jupyter Notebook
 
@@ -44,9 +45,12 @@ jupyter notebook
 
 ![image](https://raw.githubusercontent.com//880831ian/Python-PPT-Comment/main/images/3.PNG)
 
+# PPT-Comment 程式碼介紹
+
+![image](https://raw.githubusercontent.com//880831ian/Python-PPT-Comment/main/images/4.PNG)
 
 ```terminal
-pip install jupyter
+import requests
+from bs4 import BeautifulSoup
 ``` 
 
-![image](https://raw.githubusercontent.com//880831ian/Python-PPT-Comment/main/images/1.PNG)
