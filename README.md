@@ -8,11 +8,14 @@
 
 # Python 3版本
 
--
+- 1.進行pip安裝之前建議先對pip進行版本升級
 ```terminal
 pip3 install — upgrade pip
 ```
--
+- 2.再進行安裝Jupyter
+```terminal
+pip3 install jupyter
+``` 
 
 
 
