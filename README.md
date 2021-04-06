@@ -60,3 +60,9 @@ url = input("請輸入PPT網址(需複製文章內下方的文章網址):")
 response = requests.get(url)
 ``` 
 - 將網址輸入到欄位中，記得要使用文章下方所附的文章網址，requests會去抓取網站原始碼
+
+```terminal
+soup = BeautifulSoup(response.text, 'lxml')
+articles = soup.find_all('div', 'push')
+``` 
+- 將網址輸入到欄位中，記得要使用文章下方所附的文章網址，requests會去抓取網站原始碼
