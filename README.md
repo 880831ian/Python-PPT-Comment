@@ -82,3 +82,10 @@ with open('message.txt','w') as f:
 - 4. messages先去除掉冒號和左右的空白，把檔案寫入message.txt內
 
 ![image](https://raw.githubusercontent.com//880831ian/Python-PPT-Comment/main/images/7.PNG)
+
+# .py轉成.exe
+為了方便執行，將py轉成exe
+
+![image](https://raw.githubusercontent.com//880831ian/Python-PPT-Comment/main/images/9.PNG)
+
+
