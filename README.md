@@ -53,4 +53,4 @@ jupyter notebook
 import requests
 from bs4 import BeautifulSoup
 ``` 
-- 1. 因為Python要下載網頁上資料，需要使用到requests 模組建立適當的 HTTP 請求，BeautifulSoup 會讀取HTML原始碼，會自動解析並產生BeautifulSoup的物件，裡面包含整個HTML的結構，就可以找自己想要的資料
+- 因為Python要下載網頁上資料，需要使用到requests 模組建立適當的 HTTP 請求，BeautifulSoup (也是使用pip下載)會讀取HTML原始碼，會自動解析並產生BeautifulSoup的物件，裡面包含整個HTML的結構，就可以找自己想要的資料
