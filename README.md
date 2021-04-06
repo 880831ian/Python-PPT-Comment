@@ -70,3 +70,14 @@ articles = soup.find_all('div', 'push')
 - BeautifulSoup開始讀取 HTML 原始碼，soup 解析完成後，所產生的結構樹物件，soup.find_all抓取div
 
 ![image](https://raw.githubusercontent.com//880831ian/Python-PPT-Comment/main/images/6.PNG)
+
+```terminal
+with open('message.txt','w') as f:
+    for article in articles:
+        messages = article.find('span','f3 push-content').getText().replace(':','').strip()
+        print(messages)
+        f.write(messages + "\n")
+``` 
+- BeautifulSoup開始讀取 HTML 原始碼，soup 解析完成後，所產生的結構樹物件，soup.find_all抓取div
+
+![image](https://raw.githubusercontent.com//880831ian/Python-PPT-Comment/main/images/6.PNG)
