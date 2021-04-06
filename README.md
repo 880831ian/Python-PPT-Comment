@@ -54,3 +54,9 @@ import requests
 from bs4 import BeautifulSoup
 ``` 
 - 因為Python要下載網頁上資料，需要使用到requests 模組建立適當的 HTTP 請求，BeautifulSoup (也是使用pip下載)會讀取HTML原始碼，會自動解析並產生BeautifulSoup的物件，裡面包含整個HTML的結構，就可以找自己想要的資料
+
+```terminal
+url = input("請輸入PPT網址(需複製文章內下方的文章網址):")
+response = requests.get(url)
+``` 
+- 將網址輸入到欄位中，記得要使用文章下方所附的文章網址，requests會去抓取網站原始碼
