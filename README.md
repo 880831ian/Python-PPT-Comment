@@ -41,6 +41,9 @@ jupyter notebook
 
 ![image](https://raw.githubusercontent.com//880831ian/Python-PPT-Comment/main/images/2.PNG)
 
+- 3. 點選右上角>New>Python版本>就可以新增一個編輯器
+
+![image](https://raw.githubusercontent.com//880831ian/Python-PPT-Comment/main/images/3.PNG)
 
 
 ```terminal
