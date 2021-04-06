@@ -27,4 +27,24 @@ pip install — upgrade pip
 ```terminal
 pip install jupyter
 ``` 
+
+# Jupyter Notebook啟動教學
+
+- 1. 開啟terminal 輸入jupyter notebook
+```terminal
+jupyter notebook
+```
+
+![image](https://raw.githubusercontent.com//880831ian/Python-PPT-Comment/main/images/1.PNG)
+
+- 2. 就可以看到瀏覽器跳出本地端的jupyter notebook介面
+- 
+![image](https://raw.githubusercontent.com//880831ian/Python-PPT-Comment/main/images/2.PNG)
+
+
+
+```terminal
+pip install jupyter
+``` 
+
 ![image](https://raw.githubusercontent.com//880831ian/Python-PPT-Comment/main/images/1.PNG)
