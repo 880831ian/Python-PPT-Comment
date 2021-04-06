@@ -78,6 +78,6 @@ with open('message.txt','w') as f:
         print(messages)
         f.write(messages + "\n")
 ``` 
-- 4. BeautifulSoup開始讀取 HTML 原始碼，soup 解析完成後，所產生的結構樹物件，soup.find_all抓取div
+- 4. messages先去除掉冒號和左右的空白，把檔案寫入message.txt內
 
-![image](https://raw.githubusercontent.com//880831ian/Python-PPT-Comment/main/images/6.PNG)
+![image](https://raw.githubusercontent.com//880831ian/Python-PPT-Comment/main/images/7.PNG)
