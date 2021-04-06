@@ -65,4 +65,4 @@ response = requests.get(url)
 soup = BeautifulSoup(response.text, 'lxml')
 articles = soup.find_all('div', 'push')
 ``` 
-- 將網址輸入到欄位中，記得要使用文章下方所附的文章網址，requests會去抓取網站原始碼
+- BeautifulSoup開始讀取 HTML 原始碼，soup 解析完成後，所產生的結構樹物件，soup.find_all抓取div
