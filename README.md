@@ -61,6 +61,7 @@ response = requests.get(url)
 ``` 
 - 2. 將網址輸入到欄位中，記得要使用文章下方所附的文章網址，requests會去抓取網站原始碼
 
+![image](https://raw.githubusercontent.com//880831ian/Python-PPT-Comment/main/images/8.PNG)
 ![image](https://raw.githubusercontent.com//880831ian/Python-PPT-Comment/main/images/5.PNG)
 
 ```terminal
