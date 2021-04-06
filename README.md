@@ -27,6 +27,6 @@ pip install — upgrade pip
 ```terminal
 pip install jupyter
 ``` 
-
+![image](https://github.com/880831ian/Python-PPT-Comment/blob/main/images/1.PNG)
 
 
